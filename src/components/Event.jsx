@@ -35,7 +35,7 @@ const Event = () => {
                     <h1 className=' text-center font-extrabold  md:text-[12rem] text-7xl text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500 p-7'>{selectedEvent.name}</h1>
                 </div>
                 <hr />
-                <div className="flex flex-col gap-10 text-center items-center">
+                <div className="flex flex-col gap-10 text-center items-center mt-10">
                     <h2 className='text-5xl md:text-8xl font-bold text-center textShwd'>About</h2>
                     <p className='text-xl w-[80vw]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam suscipit sed nobis inventore fugit veritatis, sit ipsum libero ullam, placeat aliquam nisi hic vitae quibusdam exercitationem ut aspernatur adipisci ratione dolore mollitia eos officia corporis atque! Fugiat, voluptatibus culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur possimus ullam ex repellendus quas in omnis vitae tempore beatae temporibus.</p>
                 </div>
