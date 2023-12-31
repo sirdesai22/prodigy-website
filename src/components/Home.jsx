@@ -10,6 +10,7 @@ import About from './About.jsx'
 import '../index.css'
 import Footer from './Footer.jsx'
 import PreLoader from './PreLoader.jsx'
+import { Fade } from 'react-reveal'
 
 
 const Home = () => {
@@ -21,12 +22,12 @@ const Home = () => {
     // style={{ backgroundImage: `url(/Photos/coding.jpg)` }}
     return (
         <>
-            <PreLoader />
+            {/* <PreLoader /> */}
             <Navbar />
-             <div className="bg-gradient-to-b from-slate-200 to-cyan-100"> {/* bg-[#F8F7F4] bg-[#020b34]  bg-[#000310]*/}
+            <div className="bg-gradient-to-b from-slate-200 to-cyan-100"> {/* bg-[#F8F7F4] bg-[#020b34]  bg-[#000310]*/}
                 <div className="flex flex-col justify-center items-center w-full h-screen mb-5 video-container" id='home'>
 
-                    <video autoPlay loop muted className="video-bg absolute">
+                    <video autoPlay loop muted playsinline="true" disablePictureInPicture="true" className="video-bg absolute">
                         <source src="/Photos/videoBg.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -37,7 +38,9 @@ const Home = () => {
 
                 <About />
 
-                <h2 className='text-5xl md:text-8xl font-bold text-center textShwd' id='events'>Events</h2>
+                <Fade left>
+                    <h2 className='text-5xl md:text-8xl font-bold text-center textShwd' id='events'>Events</h2>
+                </Fade>
                 <div className="flex flex-col justify-center items-center">
                     {
                         events.map((event) => (
@@ -45,8 +48,10 @@ const Home = () => {
                         ))
                     }
                 </div>
-
+                
+                <Fade left>
                 <h2 className='text-4xl md:text-7xl font-bold text-center textShwd' id='organisers'>Faculty Co-ordinators</h2>
+                </Fade>
                 <div className="flex flex-col md:flex-row w-full gap-10 items-center justify-evenly my-5">
                     {
                         faculties.map((faculty) => (
@@ -54,7 +59,10 @@ const Home = () => {
                         ))
                     }
                 </div>
+
+                <Fade left>
                 <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Event Co-ordinators</h2>
+                </Fade>
                 <div className="flex flex-col md:flex-row w-full gap-10 items-center justify-evenly my-5">
                     {
                         organisers.map((organiser) => (
@@ -63,7 +71,9 @@ const Home = () => {
                     }
                 </div>
 
+                <Fade left>
                 <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Developers</h2>
+                </Fade>
                 <div className="flex flex-col md:flex-row w-full gap-10 items-center justify-evenly mt-5 pb-5">
                     {
                         developers.map((developer) => (

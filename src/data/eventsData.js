@@ -1,7 +1,7 @@
 const eventsData = [
   {
     id: "coding",
-    name: "Coding",
+    name: "Iron-Script",
     logo: "/Photos/coding.jpg",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iusto nam perspiciatis 3quam doloremque est laudantium iure, incidunt quibusdam consectetur! Quibusdam consequatur, hic veritatis pariatur dolore tempora perferendis quo reprehenderit?",
@@ -46,12 +46,12 @@ const eventsData = [
     faculty: {
       name: "Prof. Rucha Bapat",
       phno: 1234567890,
-      photo: "/Photos/minePic.jpg",
+      photo: "/Photos/rucha.jpg",
     },
   },
   {
     id: "communication",
-    name: "Communication",
+    name: "Cosmic Convo",
     logo: "/Photos/comms.png",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iusto nam perspiciatis quam doloremque est laudantium iure, incidunt quibusdam consectetur! Quibusdam consequatur, hic veritatis pariatur dolore tempora perferendis quo reprehenderit?",
@@ -71,7 +71,7 @@ const eventsData = [
     faculty: {
       name: "Prof. Chidambar Inamdar",
       phno: 1234567890,
-      photo: "/Photos/minePic.jpg",
+      photo: "/Photos/chidambar.jpg",
     },
   },
   {

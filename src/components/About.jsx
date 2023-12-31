@@ -1,9 +1,11 @@
 import React from 'react'
 import Gallery from './Gallery'
+import { Fade } from 'react-reveal'
 
 const About = () => {
     return (
         <>
+        <Fade left cascade>
             <div className='flex items-center justify-center mb-10' id='about'>
                 <div className="flex flex-col gap-10 w-[80vw] text-center">
                     <h2 className='text-5xl md:text-8xl font-bold text-center textShwd'>About Magnum</h2>
@@ -13,6 +15,7 @@ const About = () => {
             {/* <div className="flex justify-center">
                 <Gallery/>
             </div> */}
+            </Fade>
         </>
     )
 }
