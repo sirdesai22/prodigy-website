@@ -4,7 +4,7 @@ import eventsData from '../data/eventsData.js'
 import eventBg from '../data/eventBg.js'
 import OrganiserCard from './OrganiserCard.jsx'
 import Footer from './Footer.jsx';
-import { Fade } from 'react-reveal'
+import { Fade } from 'react-awesome-reveal'
 
 const Event = () => {
 
@@ -37,18 +37,18 @@ const Event = () => {
                 </div>
                 <hr />
                 <div className="flex flex-col gap-10 text-center items-center mt-10">
-                    <Fade left cascade>
+                    <Fade direction='left' cascade>
                         <h2 className='text-5xl md:text-8xl font-bold text-center textShwd'>About</h2>
                         <p className='text-xl w-[80vw]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam suscipit sed nobis inventore fugit veritatis, sit ipsum libero ullam, placeat aliquam nisi hic vitae quibusdam exercitationem ut aspernatur adipisci ratione dolore mollitia eos officia corporis atque! Fugiat, voluptatibus culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur possimus ullam ex repellendus quas in omnis vitae tempore beatae temporibus.</p>
                     </Fade>
                 </div>
                 <hr />
                 <div className='mt-32 max-w-full flex flex-col gap-7 justify-center items-center'>
-                    <Fade left>
+                    <Fade direction='left'>
                         <h2 className='text-5xl md:text-8xl font-bold text-center textShwd'>Rules & Regulations</h2>
                     </Fade>
                     <div className='rounded-lg shadow-xl px-4 bg-slate-100'>
-                        <Fade left cascade>
+                        <Fade direction='left' cascade>
                             <ul className='list-disc md:text-2xl text-xl flex flex-col gap-5 w-[80vw] px-8 py-8'>
                                 {rules.map((rule, index) => (
                                     <li key={index}>{rule}</li>
@@ -60,15 +60,15 @@ const Event = () => {
 
 
                 <div className=' max-w-full  mt-32 flex flex-col  gap-14 justify-center items-center '  >
-                    <Fade left>
-                    <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Faculty Co-ordinator</h2>
+                    <Fade direction='left'>
+                        <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Faculty Co-ordinator</h2>
                     </Fade>
                     <div>
                         <OrganiserCard name={selectedEvent.faculty.name} phno={selectedEvent.faculty.phno} photo={selectedEvent.faculty.photo} />
                     </div>
 
-<Fade left>
-                    <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Event Heads</h2>
+                    <Fade direction='left'>
+                        <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Event Heads</h2>
                     </Fade>
                     <div className='flex  flex-col md:flex-row md:justify-evenly  justify-center items-center gap-10 w-full'>
                         {

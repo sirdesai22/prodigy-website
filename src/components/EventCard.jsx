@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../index.css'
-import { Fade } from 'react-reveal'
+import { Fade } from 'react-awesome-reveal'
 
 const EventCard = ({ event }) => {
   return (
     <>
-    <Fade left>
+    <Fade direction='left'>
       <div className="flex max-w-[85vw] flex-col items-center rounded-md my-5 shadow-lg md:flex-row bg-white">
         <div className="h-full w-full md:w-[55vw]">
           <img

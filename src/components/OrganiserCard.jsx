@@ -1,10 +1,10 @@
 import React from 'react'
-import { Fade } from 'react-reveal'
+import { Fade } from 'react-awesome-reveal'
 
 const OrganiserCard = ({ name, phno, photo, desig }) => {
   return (
     <>
-      <Fade left>
+      <Fade direction='left'>
         <div className="relative h-[400px] w-[300px] rounded-lg shadow-xl shadow-[#0008]">
           <img
             src={photo}
