@@ -5,7 +5,7 @@ const eventBg = [
     },
     {
         id: 'designing',
-        img: '/Photos/design.jpg'
+        img: '/Photos/design.png'
     },
     {
         id: 'communication',

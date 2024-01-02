@@ -9,7 +9,6 @@ import OrganiserCard from './OrganiserCard.jsx'
 import About from './About.jsx'
 import '../index.css'
 import Footer from './Footer.jsx'
-import PreLoader from './PreLoader.jsx'
 import { Fade } from 'react-awesome-reveal'
 
 
@@ -27,13 +26,13 @@ const Home = () => {
             <div className="bg-gradient-to-b from-slate-200 to-cyan-100"> {/* bg-[#F8F7F4] bg-[#020b34]  bg-[#000310]*/}
                 <div className="flex flex-col justify-center items-center w-full h-screen mb-5 video-container" id='home'>
 
-                    <video autoPlay loop muted playsinline="true" disablePictureInPicture="true" className="video-bg absolute">
+                    <video autoPlay loop muted playsInline={true} disablePictureInPicture={true} className="video-bg absolute">
                         <source src="/Photos/videoBg.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
 
                     <h1 className='samakran w-full text-center text-[5rem] font-extrabold lg:text-[17rem]  z-40 text-amber-500 shadoww'>MAGNUM 24</h1>
-                    <p className='text-3xl font-semibold lg:text-5xl text-amber-400 z-40 shadoww'>Your tagline here!</p>
+                    <p className='text-3xl font-semibold text-center lg:text-5xl text-amber-400 z-40 shadoww'>Where brilliance meets innovation!</p>
                 </div>
 
                 <About />

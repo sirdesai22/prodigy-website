@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link to={item.id} smooth={true} duration={500}>{item.text}</Link>
           </li>
         ))}
-        <a href='/bro.pdf' download={"Brochure"} >
+        <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
           <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-2xl'/>Brochure</li>
         </a>
       </ul>
@@ -65,7 +65,7 @@ const Navbar = () => {
             <Link to={item.id} smooth={true} duration={500}>{item.text}</Link>
           </li>
         ))}
-        <a href='/bro.pdf' download={"Brochure"} >
+        <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
           <li className='bg-purple-500 p-4 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-xl'/>Brochure</li>
         </a>
       </ul>

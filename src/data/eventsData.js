@@ -26,7 +26,7 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof. Supriya Balekundri",
-      phno: 1234567890,
+      phno: 8073579756,
       photo: "/Photos/supriya.jpg",
     },]
   },
@@ -34,13 +34,13 @@ const eventsData = [
     id: "designing",
     name: "Thunder Canvas",
     tagline: "Unleashing creative storms.",
-    logo: "/Photos/design.jpg",
+    logo: "/Photos/design.png",
     description:
       "Unleash your creativity and join us for a designing event that will inspire and challenge you. This event is the perfect opportunity to explore new techniques, connect with like-minded individuals. Don't miss this chance to push your boundaries and take your skills to the next level.",
     rules: [
       "Number of participants is 03, one from each sem is compulsory.",
-      "Skills required - Creativity, Time management, Logo & poster designing, Video editing software.",
-      "Requirements - 2 Laptop, Pendrive, Headphones.",
+      "Skills required - Basic Graphic designing knowledge,Time mangement skills, Arts.",
+      "Requirements - 2 Laptop, Pendrive, Headphones (Mandatory).",
     ],
     heads: [
       {
@@ -56,7 +56,7 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof. Rucha Bapat",
-      phno: 1234567890,
+      phno: 9900619694,
       photo: "/Photos/rucha.jpg",
     },]
   },
@@ -86,13 +86,13 @@ const eventsData = [
     ],
     faculty: [{
       name: "Dr. Chidambar Inamdar",
-      phno: 1234567890,
+      phno: 9620900846,
       photo: "/Photos/chidambar.jpg",
     },
     {
       name: "Prof. Karuna Deshpande",
-      phno: 1234567890,
-      photo: "/Photos/shruti.jpg",
+      phno: 8747015516,
+      photo: "/Photos/karuna.jpg",
     },]
   },
   {
@@ -121,7 +121,7 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof. Govind Huligol",
-      phno: 1234567890,
+      phno: 9986296434,
       photo: "/Photos/govind.jpg",
     },]
   },
@@ -135,7 +135,7 @@ const eventsData = [
     rules: [
       "Number of participants is 03, one from each sem is compulsory.",
       "Skills required - Oracle, MongoDB, Jupyter, SPSS, Excel, R Language, Pandas, Basic knowledge of Databases.",
-      "Requirements - 1 Laptop(Mandatory pendrive)",
+      "Requirements - Laptop, Pendrive (Mandatory).",
     ],
     heads: [
       {
@@ -151,13 +151,13 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof. Shruti Kulkarni",
-      phno: 1234567890,
+      phno: 8792242249,
       photo: "/Photos/shruti.jpg",
     },
     {
       name: "Prof. Jyoti Patil",
-      phno: 1234567890,
-      photo: "/Photos/shruti.jpg",
+      phno: 8884988033,
+      photo: "/Photos/jyoti.jpeg",
     },]
   },
   {
@@ -186,17 +186,17 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof. Vaibhav Ambekar",
-      phno: 1234567890,
-      photo: "/Photos/minePic.jpg",
+      phno: 9742426470,
+      photo: "/Photos/image.png",
     },]
   },
   {
     id: "happy-hours",
-    name: "Happy Hours",
-    tagline: "Happy Happy Biscuits khao aur sojao.",
+    name: "Melody Munch",
+    tagline: "Tasty tune & Game delights.",
     logo: "/Photos/happy.jpg",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iusto nam perspiciatis quam doloremque est laudantium iure, incidunt quibusdam consectetur! Quibusdam consequatur, hic veritatis pariatur dolore tempora perferendis quo reprehenderit?",
+      "Embark on a delightful journey of flavors, laughter, and melody at our upcoming College Extravaganza! Join us for a spectacular Food Fest where culinary delights from around the world will tantalize your taste buds. Engage in fun-filled games that promise laughter and excitement. And let the stage come alive with our Singing Event, showcasing the incredible vocal talents within our college community.",
     rules: [
       "Each team should have their food stall compulsorily.",
       "Use of plastic items are banned, instead use paper cups or paper plates if required.",
@@ -217,14 +217,14 @@ const eventsData = [
       {
         name: "Khushi Jituri",
         phno: 9986535605,
-        photo: "/Photos/sushma.jpg",
+        photo: "/Photos/khushi.jpg",
       },
     ],
-    faculty: {
+    faculty:[{
       name: "Prof. Vaishali Kale",
-      phno: 1234567890,
-      photo: "/Photos/minePic.jpg",
-    },
+      phno: 7846058520,
+      photo: "/Photos/image.png",
+    },]
   },
 ];
 
