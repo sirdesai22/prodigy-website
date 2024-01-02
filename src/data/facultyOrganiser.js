@@ -2,7 +2,7 @@ const faculties =  [
     {
         id: 1,
         name: 'Dr. Venugopal Jalihal',
-        designation: 'Head of Depatement, BCA',
+        designation: 'Head of Department, BCA',
         phno: 9513088835,
         photo: '/Photos/venugopal.jpg'
     },
