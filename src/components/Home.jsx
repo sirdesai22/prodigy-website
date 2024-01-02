@@ -38,9 +38,7 @@ const Home = () => {
 
                 <About />
 
-                <Fade direction='left'>
-                    <h2 className='text-5xl md:text-8xl font-bold text-center textShwd' id='events'>Events</h2>
-                </Fade>
+                <h2 className='text-5xl md:text-8xl font-bold text-center textShwd' id='events'>Events</h2>
                 <div className="flex flex-col justify-center items-center">
                     {
                         events.map((event) => (
@@ -48,10 +46,8 @@ const Home = () => {
                         ))
                     }
                 </div>
-                
-                <Fade direction='left'>
-                <h2 className='text-4xl md:text-7xl font-bold text-center textShwd' id='organisers'>Faculty Co-ordinators</h2>
-                </Fade>
+
+                <h2 className='text-4xl md:text-7xl font-bold text-center textShwd' id='organisers'>Event Co-ordinators</h2>
                 <div className="flex flex-col md:flex-row w-full gap-10 items-center justify-evenly my-5">
                     {
                         faculties.map((faculty) => (
@@ -60,10 +56,7 @@ const Home = () => {
                     }
                 </div>
 
-                <Fade direction='left'>
-                <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Event Co-ordinators</h2>
-                </Fade>
-
+                <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Student Co-ordinators</h2>
                 <div className="flex flex-col md:flex-row w-full gap-10 items-center justify-evenly my-5">
                     {
                         organisers.map((organiser) => (
@@ -72,9 +65,7 @@ const Home = () => {
                     }
                 </div>
 
-                <Fade direction='left'>
                 <h2 className='text-4xl md:text-7xl font-bold text-center textShwd'>Developers</h2>
-                </Fade>
                 <div className="flex flex-col md:flex-row w-full gap-10 items-center justify-evenly mt-5 pb-5">
                     {
                         developers.map((developer) => (

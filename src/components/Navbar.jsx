@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import { MdDownload } from "react-icons/md";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -25,15 +26,18 @@ const Navbar = () => {
       <h1 className='w-full text-4xl font-bold text-[#00df9a] samakran text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500'>MAGNUM 24</h1>
 
       {/* Desktop Navigation */}
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex items-center'>
         {navItems.map(item => (
-            <li
+          <li
             key={item.id}
             className='p-3 hover:underline rounded-xl m-2 cursor-pointer duration-300 hover:text-amber-500 font-semibold'
           >
             <Link to={item.id} smooth={true} duration={500}>{item.text}</Link>
           </li>
         ))}
+        <a href='/bro.pdf' download={"Brochure"} >
+          <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-2xl'/>Brochure</li>
+        </a>
       </ul>
 
       {/* Mobile Navigation Icon */}
@@ -61,6 +65,9 @@ const Navbar = () => {
             <Link to={item.id} smooth={true} duration={500}>{item.text}</Link>
           </li>
         ))}
+        <a href='/bro.pdf' download={"Brochure"} >
+          <li className='bg-purple-500 p-4 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-xl'/>Brochure</li>
+        </a>
       </ul>
     </div>
   );

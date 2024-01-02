@@ -8,18 +8,19 @@ const EventCard = ({ event }) => {
     <>
     <Fade direction='left'>
       <div className="flex max-w-[85vw] flex-col items-center rounded-md my-5 shadow-lg md:flex-row bg-white">
-        <div className="h-full w-full md:w-[55vw]">
+        <div className="h-full w-full md:w-[55vw] flex-1">
           <img
             src={event.logo}
             alt="Laptop"
             className="h-full w-full rounded-md object-cover"
           />
         </div>
-        <div>
+        <div className='flex-[2]'>
           <div className="p-4 flex flex-col gap-5">
             <h1 className="inline-flex items-center text-3xl font-semibold">
               {event.name}
             </h1>
+            <h2 className='uppercase font-semibold text-gray-700'>{event.id}</h2>
             <p className="text-sm text-gray-600">
               {event.description}
             </p>

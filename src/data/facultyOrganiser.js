@@ -1,18 +1,19 @@
 const faculties =  [
     {
         id: 1,
-        name: 'Venugopal Jalihal',
-        designation: 'Head of Depatement',
-        phno: 1234567890,
-        photo: '/Photos/minePic.jpg'
+        name: 'Dr. Asmita Deshpande',
+        designation: 'Event Co-ordinator',
+        phno: 9341116677,
+        photo: '/Photos/asmita.jpg'
     },
     {
-        id: 2,
-        name: 'Asmita Deshpande',
-        designation: 'Head of Depatement',
-        phno: 1234567890,
+        id: 1,
+        name: 'Dr. Venugopal Jalihal',
+        designation: 'Head of Depatement, BCA',
+        phno: 9513088835,
         photo: '/Photos/minePic.jpg'
     }
+    
 ]
 
 export default faculties

@@ -22,6 +22,10 @@ const eventBg = [
     {
         id: 'gaming',
         img: '/Photos/gaming.png'
+    },
+    {
+        id: 'happy-hours',
+        img: '/Photos/happy.jpg'
     }
 ]
 
