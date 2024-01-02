@@ -187,7 +187,7 @@ const eventsData = [
     faculty: [{
       name: "Prof. Vaibhav Ambekar",
       phno: 9742426470,
-      photo: "/Photos/image.png",
+      photo: "/Photos/vaibhav.jpg",
     },]
   },
   {
@@ -223,7 +223,7 @@ const eventsData = [
     faculty:[{
       name: "Prof. Vaishali Kale",
       phno: 7846058520,
-      photo: "/Photos/image.png",
+      photo: "/Photos/vaishali.jpg",
     },]
   },
 ];

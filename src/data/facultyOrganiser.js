@@ -4,7 +4,7 @@ const faculties =  [
         name: 'Dr. Venugopal Jalihal',
         designation: 'Head of Depatement, BCA',
         phno: 9513088835,
-        photo: '/Photos/image.png'
+        photo: '/Photos/venugopal.jpg'
     },
     {
         id: 2,
@@ -12,6 +12,13 @@ const faculties =  [
         designation: 'Event Co-ordinator',
         phno: 9341116677,
         photo: '/Photos/asmita.jpg'
+    },
+    {
+        id: 3,
+        name: 'Prof. Prakash Deshpande',
+        designation: 'Event Co-ordinator',
+        phno: 9739639220,
+        photo: '/Photos/prakash.jpg'
     },
 ]
 
