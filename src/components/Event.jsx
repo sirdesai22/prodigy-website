@@ -5,6 +5,7 @@ import eventBg from '../data/eventBg.js'
 import OrganiserCard from './OrganiserCard.jsx'
 import Footer from './Footer.jsx';
 import { Fade } from 'react-awesome-reveal'
+import HomeBtn from './HomeBtn.jsx';
 
 const Event = () => {
 
@@ -31,6 +32,7 @@ const Event = () => {
 
     return (
         <>
+        <HomeBtn/>
             <div className='pb-5 bg-gradient-to-b from-slate-200 to-indigo-200'>
                 <div className=' flex flex-col justify-center items-center h-screen' style={{ backgroundImage: `url(${bgImg.img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} >
                     <h1 className=' text-center font-extrabold  md:text-[12rem] text-7xl text-amber-500 p-7 shadoww'>{selectedEvent.name}</h1>
