@@ -27,7 +27,7 @@ const Home = () => {
             {/* <div className="flex justify-center h-[9rem] bg-black">
                 <img src="/Photos/gogte.png" alt="" />
             </div> */}
-            <div className='text-white z-10 text-center w-full absolute translate-x-[-0%] bg-[#0006] py-2'> 
+            <div className='text-white z-10 text-center w-full absolute translate-x-[-0%] bg-[#0006] py-2'>
                 <span className='md:text-xl'>Karnatak Law Society's</span>
                 <br />
                 <span className='font-semibold md:text-2xl'>Gogte College of Commerce</span>
@@ -60,6 +60,12 @@ const Home = () => {
                         ))
                     }
                 </div>
+
+                <a href="https://forms.gle/B5z5j7jnEpxVgnwJ8" >
+                    <div className='flex justify-center w-full'>
+                        <span className='px-5 py-3 bg-purple-500 font-semibold text-xl text-white rounded-lg shadow-lg my-5'>Register here!</span>
+                    </div>
+                </a>
 
                 <h2 className='text-4xl md:text-7xl font-bold text-center textShwd' id='organisers'>Event Co-ordinators</h2>
                 <div className="flex flex-col md:flex-row w-full gap-10 items-center justify-evenly my-5">

@@ -98,7 +98,7 @@ const eventsData = [
   {
     id: "cyber-security",
     name: "Crypto Verse",
-    tagline: "Security is the name of the game.",
+    tagline: "Spidey's Web Security Hub: Where Marvel meets the Cyber Club!",
     logo: "/Photos/cyber.jpg",
     description:
       "Cryptoverse is basically a cyber event that describes the theft done on the used data. Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Cybersecurity measures are designed to combat threats.",
