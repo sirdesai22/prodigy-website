@@ -46,7 +46,7 @@ const eventsData = [
       {
         name: "Prathamesh Patil",
         phno: 9113061708,
-        photo: "/Photos/minePic.jpg",
+        photo: "/Photos/prince.jpg",
       },
       {
         name: "Samarth Muthgekar",
