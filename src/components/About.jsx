@@ -18,7 +18,7 @@ const About = () => {
                         <p className='text-2xl'>
                             At the hands of <strong>Dr. H. H. Veerapur</strong>, Principal, KLS Gogte College of Commerce
                             <br />
-                            @ 9.00 AM on 9<sup>th</sup> January 2024
+                            @ 10.30 AM on 9<sup>th</sup> January 2024
                             <br />
                             Venue: Quadrangle, BCA Building</p>
                     </div>
