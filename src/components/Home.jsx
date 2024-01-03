@@ -22,10 +22,19 @@ const Home = () => {
     return (
         <>
             {/* <PreLoader /> */}
-            
+
             <Navbar />
-            <div className="flex justify-center bg-[#e0ddce] w-full">
-                <img src="/Photos/gogte.jpg" alt="" />
+            {/* <div className="flex justify-center h-[9rem] bg-black">
+                <img src="/Photos/gogte.png" alt="" />
+            </div> */}
+            <div className='text-white z-10 text-center w-full absolute translate-x-[-0%] bg-[#0006] py-2'> 
+                <span className='md:text-xl'>Karnatak Law Society's</span>
+                <br />
+                <span className='font-semibold md:text-2xl'>Gogte College of Commerce</span>
+                <br />
+                <span className='font-bold text-xl md:text-2xl'>Bachelor of Computer Applications</span>
+                <br />
+                <span className='font-thin md:text-xl'>Presents</span>
             </div>
             <div className="bg-gradient-to-b from-slate-200 to-cyan-100"> {/* bg-[#F8F7F4] bg-[#020b34]  bg-[#000310]*/}
                 <div className="flex flex-col justify-center items-center w-full h-screen mb-5 video-container" id='home'>
@@ -35,8 +44,8 @@ const Home = () => {
                         Your browser does not support the video tag.
                     </video>
 
-                    <img className='z-20 w-[200px]' src="/Photos/logo.png" alt="" />
 
+                    {/* <img className='z-20 w-[200px]' src="/Photos/logo.png" alt="" /> */}
                     <h1 className='samakran w-full text-center text-[5rem] font-extrabold lg:text-[17rem]  z-40 text-amber-500 shadoww'>MAGNUM 24</h1>
                     <p className='text-3xl font-semibold text-center lg:text-5xl text-amber-400 z-40 shadoww'>Where brilliance meets innovation!</p>
                 </div>

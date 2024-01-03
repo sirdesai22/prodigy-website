@@ -23,7 +23,12 @@ const Navbar = () => {
   return (
     <div className='bg-black flex justify-between items-center lg:max-w-full h-16 max-w-[1240px] mx-auto px-4 text-white sticky top-0 z-50'>
       {/* Logo */}
-      <h1 className='w-full text-4xl font-bold text-[#00df9a] samakran text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500'>MAGNUM 24</h1>
+      <h1 className='w-full text-4xl font-bold text-[#00df9a] samakran text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500'>MAGNUM 24
+        {/* <div className='w-1 bg-white mx-3 md:visible'></div>
+        <div className='text-white font-sans text-sm flex gap-3 md:visible '>
+          <img src="/Photos/gogteLogo.png" alt="" className='h-9'/>
+          Gogte College <br /> of Commerce</div> */}
+      </h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex items-center'>
@@ -36,10 +41,10 @@ const Navbar = () => {
           </li>
         ))}
         <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
-          <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-2xl'/>Brochure</li>
+          <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-2xl' />Brochure</li>
         </a>
         <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
-          <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2 ml-3'><MdDownload className='text-2xl'/>Schedule</li>
+          <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2 ml-3'><MdDownload className='text-2xl' />Schedule</li>
         </a>
       </ul>
 
@@ -69,10 +74,10 @@ const Navbar = () => {
           </li>
         ))}
         <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
-          <li className='bg-purple-500 p-4 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-xl'/>Brochure</li>
+          <li className='bg-purple-500 p-4 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-xl' />Brochure</li>
         </a>
         <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
-          <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2 mt-2'><MdDownload className='text-2xl'/>Schedule</li>
+          <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2 mt-2'><MdDownload className='text-2xl' />Schedule</li>
         </a>
       </ul>
     </div>
