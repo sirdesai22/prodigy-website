@@ -134,7 +134,7 @@ const eventsData = [
       "Dive into the world of data analytics, where numbers tell stories, and insights are the treasures waiting to be discovered. Here, every row and column is a potential adventure. You will dance with algorithms, juggle statistical models, and ride the roller coaster of trends. Get ready to wear your capes and step into the realm of data analytics.",
     rules: [
       "Number of participants is 03, one from each sem is compulsory.",
-      "Skills required - Oracle, MongoDB, Jupyter, SPSS, Excel, R Language, Pandas, Basic knowledge of Databases.",
+      "Skills required - Oracle, MongoDB, Jupyter, WinRAR, Excel, R Language, Pandas, Basic knowledge of Databases.",
       "Requirements - Laptop, Pendrive (Mandatory).",
     ],
     heads: [
