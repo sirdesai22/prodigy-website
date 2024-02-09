@@ -17,13 +17,13 @@ const Navbar = () => {
     { id: 'home', text: 'Home' },
     { id: 'about', text: 'About' },
     { id: 'events', text: 'Events' },
-    { id: 'organisers', text: 'Organisers' },
+    { id: 'contact', text: 'Contact' },
   ];
 
   return (
     <div className='bg-black flex justify-between items-center lg:max-w-full h-16 max-w-[1240px] mx-auto px-4 text-white sticky top-0 z-50'>
       {/* Logo */}
-      <h1 className='w-full text-4xl font-bold text-[#00df9a] samakran text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500'>MAGNUM 24
+      <h1 className='w-full text-4xl font-bold text-[#00df9a] samakran text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500'>PRODIGY 24
         {/* <div className='w-1 bg-white mx-3 md:visible'></div>
         <div className='text-white font-sans text-sm flex gap-3 md:visible '>
           <img src="/Photos/gogteLogo.png" alt="" className='h-9'/>
@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link to={item.id} smooth={true} duration={500}>{item.text}</Link>
           </li>
         ))}
-        <a href='/MAGNUM_2024_BROCHURE.pdf' download={"Brochure"} >
+        <a href='/PRODIGY24_BROCHURE.pdf' download={"Brochure"} >
           <li className='bg-purple-500 px-4 py-3 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-2xl' />Brochure</li>
         </a>
         {/* <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
@@ -62,7 +62,7 @@ const Navbar = () => {
         }
       >
         {/* Mobile Logo */}
-        <h1 className='w-full text-4xl font-bold text-[#00df9a] m-4 samakran text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500'>MAGNUM 24</h1>
+        <h1 className='w-full text-4xl font-bold text-[#00df9a] m-4 samakran text-transparent bg-clip-text inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500'>PRODIGY 24</h1>
 
         {/* Mobile Navigation Items */}
         {navItems.map(item => (
@@ -73,7 +73,7 @@ const Navbar = () => {
             <Link to={item.id} smooth={true} duration={500}>{item.text}</Link>
           </li>
         ))}
-        <a href='/MAGNUM_2024.pdf' download={"Brochure"} >
+        <a href='/PRODIGY24_BROCHURE.pdf' download={"Brochure"} >
           <li className='bg-purple-500 p-4 rounded-xl font-semibold cursor-pointer text-center flex items-center gap-2'><MdDownload className='text-xl' />Brochure</li>
         </a>
         {/* <a href='/MAGNUM_2024.pdf' download={"Brochure"} >

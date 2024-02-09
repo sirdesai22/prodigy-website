@@ -1,31 +1,31 @@
 const eventBg = [
     {
         id: 'coding',
-        img: '/Photos/coding.jpg'
+        img: '/Photos/code.jpg'
     },
     {
         id: 'designing',
-        img: '/Photos/design.png'
+        img: '/Photos/design.jpg'
     },
     {
         id: 'communication',
-        img: '/Photos/comms.png'
+        img: '/Photos/communi.jpg'
     },
     {
         id: 'cyber-security',
-        img: '/Photos/cyber.jpg'
+        img: '/Photos/cyberBg.jpg'
     },
     {
-        id: 'data-analytics',
-        img: '/Photos/data.jpg'
+        id: 'best-manager',
+        img: '/Photos/bm.jpg'
     },
     {
         id: 'gaming',
-        img: '/Photos/gaming.png'
+        img: '/Photos/game.jpg'
     },
     {
-        id: 'happy-hours',
-        img: '/Photos/happy.jpg'
+        id: 'ramp-walk',
+        img: '/Photos/rampwalk.jpg'
     }
 ]
 
